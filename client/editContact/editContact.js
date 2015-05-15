@@ -1,6 +1,6 @@
 Template.editContact.helpers({
   cardViewModel: function() {
-    return ViewModel.byId("editContactForm");
+    return Session.get("editContactForm-rendered");
   }
 });
 

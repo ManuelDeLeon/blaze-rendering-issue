@@ -1,6 +1,4 @@
-Template.card.viewmodel('card', {
 
-});
 
 Template.card.created = function () {
   console.log("card.onCreated");
